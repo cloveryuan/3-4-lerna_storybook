@@ -1,0 +1,66 @@
+.lg-steps {
+  position: relative;
+  display: flex;
+}
+.lg-step-item{
+  position: relative;
+  display: inline-block;
+  flex: 1;
+  overflow: hidden;
+  vertical-align: top;
+  white-space: nowrap;
+  margin-right: 12px;
+}
+.lg-step-line {
+  position: absolute;
+  height: 2px;
+  top: 50%;
+  left: 44px;
+  transform: translateY(-50%);
+  z-index: 1;
+  background: rgb(223, 231, 239);
+}
+
+.lg-step {
+  border: 2px solid;
+  border-radius: 50%;
+  height: 32px;
+  width: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  z-index: 2;
+  background-color: white;
+  box-sizing: border-box;
+}
+.lg-step-item:after {
+  position: absolute;
+  top: 16px;
+  left: 44px;
+  display: block;
+  width: 9999px;
+  height: 1px;
+  background: rgba(0,0,0,.45);
+  content: "";
+}
+
+
+/* 完成 */
+.lg-step-item-finshed:after{
+  background: #1890ff;
+}
+.lg-step-item-finshed .lg-step{
+  color: #1890ff;
+}
+
+/* 激活 */
+.lg-step-item-actived .lg-step{
+  color: rgba(0,0,0,.85);
+  font-weight: 700;
+ }
+
+ /* 等待 */
+.lg-step-item-wait .lg-step{
+  color:rgba(0,0,0,.45);
+}
