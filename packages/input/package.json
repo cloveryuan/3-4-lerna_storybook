@@ -8,5 +8,9 @@
   },
   "keywords": [],
   "author": "Cathy",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "3"
+  },
+  "gitHead": "934bb509ef5204d600349eb55f7df06d62d5dce8"
 }

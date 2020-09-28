@@ -7,7 +7,7 @@
 <script>
 import lodash from "lodash";
 export default {
-  name: 'LgInput',
+  name: 'MyyInput',
   inheritAttrs: false,
   props: {
     value: {

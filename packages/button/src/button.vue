@@ -6,7 +6,7 @@
 
 <script>
 export default {
-  name: 'LgButton',
+  name: 'MyyButton',
   props:{
     type:{
       type:String,

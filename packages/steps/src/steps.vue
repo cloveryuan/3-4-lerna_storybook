@@ -12,7 +12,7 @@
 <script>
 import '../../theme/steps.css'
 export default {
-  name: 'LgSteps',
+  name: 'MyySteps',
   props: {
     count: {
       type: Number,

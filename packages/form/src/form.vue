@@ -6,7 +6,7 @@
 
 <script>
 export default {
-  name: 'lgForm',
+  name: 'MyyForm',
   provide(){
     return {form:this}
   },
