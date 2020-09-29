@@ -1,6 +1,6 @@
 {
   "name": "myy-formitem",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "myy-formitem component",
   "main": "dist/cjs/index.js",
   "module": "dist/es/index.js",
