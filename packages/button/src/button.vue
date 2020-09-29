@@ -1,6 +1,6 @@
 <template>
   <div>
-    <button @click="handleClick" :class="['el-button','el-button--'+type]"><slot></slot></button>
+    <button @click="handleClick" :disabled="disabled" :class="['el-button','el-button--'+type]"><slot></slot></button>
   </div>
 </template>
 
@@ -11,7 +11,11 @@ export default {
     type:{
       type:String,
       default:'primary'
-    }
+    },
+    disabled:{
+      type:Boolean,
+      default:false
+    },
   },
   data () {
     return {

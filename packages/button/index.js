@@ -1,7 +1,7 @@
-import Button from './src/button.vue'
+import MyyButton from './src/button.vue'
 
-Button.install = Vue => {
-  Vue.component(Button.name, Button)
+MyyButton.install = Vue => {
+  Vue.component(MyyButton.name, MyyButton)
 }
 
-export default Button
+export default MyyButton

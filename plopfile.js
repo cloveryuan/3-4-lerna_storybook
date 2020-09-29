@@ -3,31 +3,20 @@
 
 module.exports = plop => {
   plop.setGenerator('component', {
-    description: 'create a component',
+    description: 'create a  custom component',
     prompts: [
       {
         type: 'input',
         name: 'name',
-        message: 'file name',
-        default: 'file name'
-      },
-      {
-        type: 'input',
-        name: 'Component',
         message: 'component name',
-        default: 'Component'
+        default: 'MyComponentname'
       }
     ],
     actions: [
       {
         type: 'add',
         path: 'packages/{{name}}/stories/{{name}}.stories.js',
-        templateFile: 'plop-template/component/stories/component.stories.hbs'
-      },
-      {
-        type: 'add', // 添加dist文件
-        path: 'packages/{{name}}/dist/index.js',
-        templateFile: 'plop-template/dist/index.js'
+        templateFile: 'plop-template/stories/component.stories.hbs'
       },
       {
         type: 'add', // 添加LICENSE文件
@@ -47,12 +36,17 @@ module.exports = plop => {
       {
         type: 'add', // 添加index.js文件
         path: 'packages/{{name}}/index.js',
-        templateFile: 'plop-template/index.js'
+        templateFile: 'plop-template/index.hbs'
       },
       {
         type: 'add', // 添加组件文件
         path: 'packages/{{name}}/src/{{name}}.vue',
-        templateFile: 'plop-template/src/component.vue'
+        templateFile: 'plop-template/src/component.hbs'
+      },
+      {
+        type: 'add',
+        path: 'packages/{{name}}/__tests__/{{name}}.test.js',
+        templateFile: 'plop-template/__tests__/component.test.hbs'
       },
     ]
   })

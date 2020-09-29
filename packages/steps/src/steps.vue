@@ -10,7 +10,6 @@
 </template>
 
 <script>
-import '../../theme/steps.css'
 export default {
   name: 'MyySteps',
   props: {
@@ -27,5 +26,5 @@ export default {
 </script>
 
 <style>
-
+  @import './steps.css'
 </style>

@@ -1,7 +1,7 @@
-import Form from './src/form.vue'
+import MyyForm from './src/form.vue'
 
-Form.install = Vue => {
-  Vue.component(Form.name, Form)
+MyyForm.install = Vue => {
+  Vue.component(MyyForm.name, MyyForm)
 }
 
-export default Form
+export default MyyForm

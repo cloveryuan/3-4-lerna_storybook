@@ -1,16 +1,17 @@
 {
   "name": "myy2-input",
-  "version": "0.0.3",
-  "description": "",
-  "main": "index.js",
+  "version": "1.0.0",
+  "description": "myy-input component",
+  "main": "dist/cjs/index.js",
+  "module": "dist/es/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "del": "rimraf dist"
   },
   "keywords": [],
-  "author": "Cathy",
+  "author": "马园园<750363796@qq.com>",
   "license": "MIT",
   "dependencies": {
-    "lodash": "3"
-  },
-  "gitHead": "898658453e02189c82332ac3e4aedbcd9127d510"
+    "lodash": "^4.17.20"
+  }
 }

@@ -1,16 +1,15 @@
 {
   "name": "myy-button",
-  "version": "0.0.3",
-  "description": "",
-  "main": "index.js",
+  "version": "1.0.0",
+  "description": "myy-button component",
+  "main": "dist/cjs/index.js",
+  "module": "dist/es/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c",
+    "del": "rimraf dist"
   },
   "keywords": [],
-  "author": "Cathy",
-  "license": "MIT",
-  "dependencies": {
-    "lodash": "4"
-  },
-  "gitHead": "898658453e02189c82332ac3e4aedbcd9127d510"
+  "author": "马园园<750363796@qq.com>",
+  "license": "MIT"
 }

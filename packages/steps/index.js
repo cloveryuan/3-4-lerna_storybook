@@ -1,7 +1,7 @@
-import Steps from './src/steps.vue'
+import MyySteps from './src/steps.vue'
 
-Steps.install = Vue => {
-  Vue.component(Steps.name, Steps)
+MyySteps.install = Vue => {
+  Vue.component(MyySteps.name, MyySteps)
 }
 
-export default Steps
+export default MyySteps

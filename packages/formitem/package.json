@@ -1,16 +1,16 @@
 {
   "name": "myy-formitem",
-  "version": "0.0.3",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "version": "1.0.0",
+  "description": "myy-formitem component",
+  "main": "dist/cjs/index.js",
+  "module": "dist/es/index.js",  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "del": "rimraf dist"
   },
   "keywords": [],
-  "author": "Cathy",
+  "author": "马园园<750363796@qq.com>",
   "license": "MIT",
   "dependencies": {
     "async-validator": "^3.4.0"
-  },
-  "gitHead": "898658453e02189c82332ac3e4aedbcd9127d510"
+  }
 }

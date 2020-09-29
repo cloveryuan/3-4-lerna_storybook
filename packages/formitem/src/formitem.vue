@@ -12,7 +12,13 @@
 import AsyncValidator from 'async-validator'
 export default {
   name: 'MyyFormItem',
-  inject:['form'],
+  inject:{
+    'form':{
+      default:()=>{
+        return {model:{},rules:{}}
+      }
+    }
+  },
   props:{
     label:{
       type:String

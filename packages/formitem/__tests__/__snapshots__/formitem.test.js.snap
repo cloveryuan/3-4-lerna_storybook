@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`myy-formitem formitem-prop 1`] = `
+<div>
+  <label>
+    
+  </label>
+   
+  <div>
+     
+    <!---->
+  </div>
+</div>
+`;

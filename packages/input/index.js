@@ -1,7 +1,7 @@
-import Input from './src/input.vue'
+import MyyInput from './src/input.vue'
 
-Input.install = Vue => {
-  Vue.component(Input.name, Input)
+MyyInput.install = Vue => {
+  Vue.component(MyyInput.name, MyyInput)
 }
 
-export default Input
+export default MyyInput
